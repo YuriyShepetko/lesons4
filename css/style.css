@@ -1,0 +1,77 @@
+@import "null.css";
+@font-face {
+	font-family: "Allison";
+	src: url("../fonts/Allison-Regular.woff2") format("woff2"), url("../fonts/Allison-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.header{
+	font-family:"Comforter", cursive;
+	font-size: 50px;
+	color: brown;
+	text-align: center;
+}
+.main {
+	font-family:Arial, Helvetica, sans-serif;
+	color: darkgrey;
+}
+.option {
+text-indent: 50px;
+color: salmon;
+}
+h1{
+	font-family:"Allison", cursive;
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+	word-spacing: 10px;
+}
+.menu {
+	font-style: italic;
+	font-size: 30px;
+	color: darkorange;
+	text-align: left;
+	text-decoration: underline;
+	text-align: right;
+}
+h2,h3{
+	text-shadow: 10px 10px 10px red;
+	color: black;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;;
+}
+.option-coffe {
+text-decoration: underline;
+color: seagreen;
+}
+
+.option-roasting {
+text-decoration: overline;
+color: royalblue;
+letter-spacing: 5px;
+}
+
+.types {
+text-align: justify;
+color: tomato;
+white-space: nowrap;
+line-height: 2;
+}
+.types-espresso {
+text-transform: lowercase;
+text-align: right;
+color: teal;
+font-style: italic;
+}
+.types-milk {
+	font-family:'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: 900;
+	text-transform: capitalize;
+	line-height: 1.5 ;
+
+}
+
